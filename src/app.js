@@ -4,6 +4,8 @@ const incidentsRouter = require('./routes/incidents');
 const app = express();
 const PORT = process.env.PORT || 3000;
 
+// modificación
+
 // Middleware para parsear JSON
 app.use(express.json());
 
